@@ -1,0 +1,24 @@
+# Build output
+build/
+src/build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Generated files
+*.moc
+moc_*.cpp
+qrc_*.cpp
+*_autogen/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db

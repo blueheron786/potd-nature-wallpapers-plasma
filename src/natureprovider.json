@@ -1,0 +1,8 @@
+{
+    "KPlugin": {
+        "Name": "Nature Wallpapers",
+        "Description": "Nature wallpapers from GitHub Pages",
+        "Icon": "preferences-desktop-wallpaper"
+    },
+    "X-KDE-PlasmaPoTDProvider-Identifier": "nature"
+}
