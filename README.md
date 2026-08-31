@@ -2,6 +2,11 @@
 
 A Picture of the Day provider for KDE Plasma 6 that displays beautiful nature wallpapers on a daily rotation.
 
+[![CI](https://github.com/blueheron786/potd-nature-wallpapers-plasma/actions/workflows/ci.yml/badge.svg)](https://github.com/blueheron786/potd-nature-wallpapers-plasma/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![KDE Plasma 6](https://img.shields.io/badge/KDE%20Plasma-6-blue.svg)](https://kde.org/plasma-desktop/)
+[![Qt 6](https://img.shields.io/badge/Qt-6-green.svg)](https://www.qt.io/)
+
 ![Nature Wallpapers Preview](screenshot.png)
 
 ## Overview
