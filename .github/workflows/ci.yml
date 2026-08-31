@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            build-essential \
+            cmake \
+            ninja-build \
+            extra-cmake-modules \
+            qt6-base-dev \
+            libkf6coreaddons-dev \
+            libkf6kio-dev \
+            plasma-workspace-dev
+
+      - name: Configure
+        run: |
+          cmake -B build -G Ninja -DBUILD_TESTING=ON
+
+      - name: Build
+        run: |
+          cmake --build build
+
+      - name: Test
+        run: |
+          ctest --test-dir build --output-on-failure

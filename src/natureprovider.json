@@ -1,8 +1,14 @@
 {
     "KPlugin": {
         "Name": "Nature Wallpapers",
-        "Description": "Nature wallpapers from GitHub Pages",
-        "Icon": "preferences-desktop-wallpaper"
+        "Description": "A Picture of the Day provider that displays nature wallpapers from a curated collection. Updates daily with beautiful nature photography.",
+        "Icon": "preferences-desktop-wallpaper",
+        "Keywords": "wallpaper,nature,picture of the day,potd,background"
     },
-    "X-KDE-PlasmaPoTDProvider-Identifier": "nature"
+    "X-KDE-PlasmaPoTDProvider-Identifier": "nature",
+    "X-KDE-PluginInfo-Author": "Blue Heron",
+    "X-KDE-PluginInfo-Email": "blueheron786@gmail.com",
+    "X-KDE-PluginInfo-Website": "https://github.com/blueheron786/potd-nature-wallpapers-plasma",
+    "X-KDE-PluginInfo-License": "CC-BY-SA",
+    "X-KDE-PluginInfo-Version": "1.0.0"
 }
